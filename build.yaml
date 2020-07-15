@@ -1,0 +1,6 @@
+- task: AzureIoTEdge@2
+  displayName: AzureIoTEdge - Build module images
+  inputs:
+    action: Build module images
+    templateFilePath: deployment.template.json
+    defaultPlatform: amd64  
